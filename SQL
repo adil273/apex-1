@@ -1,0 +1,3 @@
+select last_name as NAME, salary as Payment, salary+500 as payment_with_comm, 
+last_name || ' is employees with salary = ' || salary AS MY_EMP 
+from employees;
